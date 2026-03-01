@@ -1,7 +1,8 @@
 [
   {
     "title": "1- TVN",
-    "url": "https://marine2.miplay.cl/tvnchile/index.m3u8"
+    "url": "https://marine2.miplay.cl/tvnchile/index.m3u8",
+    "format": "hls"
   },
   {
     "title": "2- MEGA",

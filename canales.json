@@ -1,8 +1,7 @@
 [
   {
     "title": "1- TVN",
-    "url": "https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?uid=uYzhlnZRYRtd4BITmLFZCV9DvYjxPP6c&sid=75z54gQIdFeXlKqQtNmEC7ApbmaPR9da&pid=EWiL4AoP0KzPGWXEPF5bVMWlXCbifka6&pid_dvr=DYulaNV76J75csvc7Yi0E0brRbMAKYaI&an=tvn-play-app-lg-tv&at=web-app&av=v6.0.266&ref=https%3A%2F%2Flive.tvn.cl%2F&res=950x559&without_cookies=false&listenerid=&dnt=true&access_token=GDNja7Ei1EEmtsadpy05YPaQw4dl0bf3a0mmsEutbbakOpxhR2HFkwaaAB7cDWhuIARG9VLNTKc&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22EWiL4AoP0KzPGWXEPF5bVMWlXCbifka6%22%2Csu"
-        c1.streamformat = "hls",
+    "url": "https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?uid=uYzhlnZRYRtd4BITmLFZCV9DvYjxPP6c&sid=75z54gQIdFeXlKqQtNmEC7ApbmaPR9da&pid=EWiL4AoP0KzPGWXEPF5bVMWlXCbifka6&pid_dvr=DYulaNV76J75csvc7Yi0E0brRbMAKYaI&an=tvn-play-app-lg-tv&at=web-app&av=v6.0.266&ref=https%3A%2F%2Flive.tvn.cl%2F&res=950x559&without_cookies=false&listenerid=&dnt=true&access_token=GDNja7Ei1EEmtsadpy05YPaQw4dl0bf3a0mmsEutbbakOpxhR2HFkwaaAB7cDWhuIARG9VLNTKc&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22EWiL4AoP0KzPGWXEPF5bVMWlXCbifka6%22%2Csu",
     "format": "hls"
   },
   {

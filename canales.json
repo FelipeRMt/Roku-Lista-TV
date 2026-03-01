@@ -1,7 +1,7 @@
 [
   {
     "title": "1- TVN",
-    "url": "https://redirector.rudo.video/hls-video/lvcl5/cnn/cnn.smil/playlist.m3u8?DVR",
+    "url": "https://mdstrm.com/live-stream-playlist-v/555c9a91eb4886825b07ee7b.m3u8",
     "format": "hls"
   },
   {
@@ -21,7 +21,7 @@
   }
   {
     "title": "5- CNN CHILE",
-    "url": "https://redirector.rudo.video/hls-video/lvcl5/cnn/cnn.smil/playlist.m3u8?DVR",
+    "url": "https://jireh-2-hls-video-cl-vtr.dps.live/hls-video/lvcl5/cnn/cnn.smil/cnn/livestream1/chunks.m3u8",
     "format": "hls"
   }
 ]

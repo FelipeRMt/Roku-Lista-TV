@@ -1,7 +1,7 @@
 [
   {
     "title": "1- LA RED",
-    "url": "https://unlimited1-cl-isp.dps.live/lared/lared.smil/playlist.m3u8",
+    "url": "https://alba-cl-lared-lared.stream.mediatiquestream.com/index.m3u8",
     "format": "hls"
   },
   {
@@ -22,11 +22,6 @@
   {
     "title": "5- CANAL 13",
     "url": "http://38.250.127.17:9800/play/a067/index.m3u8",
-    "format": "hls"
-  },
-  {
-    "title": "6- CNN CHILE",
-    "url": "http://unlimited1-us.dps.live/cnn/cnn.smil/playlist.m3u8",
     "format": "hls"
   }
 ]

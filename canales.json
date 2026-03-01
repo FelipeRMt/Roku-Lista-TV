@@ -18,9 +18,4 @@
     "url": "http://38.250.127.17:9800/play/a067/index.m3u8",
     "format": "hls"
   }
-  {
-    "title": "5- CNN CHILE",
-    "url": "https://redirector.rudo.video/hls-video/lvcl5/cnn/cnn.smil/playlist.m3u8?DVR",
-    "format": "hls"
-  }
 ]

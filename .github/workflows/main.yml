@@ -1,0 +1,31 @@
+name: Actualizador Horario Roku
+on:
+  schedule:
+    - cron: '0 * * * *' # Esto significa EXACTAMENTE: "Cada vez que el reloj marque las :00"
+  workflow_dispatch: # Esto te permite darle al botón "Play" manual cuando quieras
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar mi repositorio
+        uses: actions/checkout@v3
+      
+      - name: Instalar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Instalar libreria de internet
+        run: pip install requests
+        
+      - name: Ejecutar el extractor
+        run: python extractor.py
+        
+      - name: Guardar los cambios en mi GitHub
+        run: |
+          git config --global user.name 'Robot Actualizador'
+          git config --global user.email 'robot@github.com'
+          git add canales.json
+          git commit -m "Actualización automática de links" || exit 0
+          git push

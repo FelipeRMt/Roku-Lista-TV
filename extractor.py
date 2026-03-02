@@ -2,37 +2,49 @@ import requests
 import re
 import json
 
-# Configuración de las webs oficiales
-CANALES_CONFIG = {
-    "TVN": "https://www.tvn.cl/envivo/",
-    "Mega": "https://www.mega.cl/senal-en-vivo/",
-    "CHV": "https://www.chilevision.cl/senal-online",
-    "Canal 13": "https://www.13.cl/en-vivo/"
+# Configuración de búsqueda para cada canal
+CANALES_BUSQUEDA = {
+    "1- TVN": "https://www.tvn.cl/envivo/",
+    "2- MEGA": "https://www.mega.cl/senal-en-vivo/",
+    "3- CHV": "https://www.chilevision.cl/senal-online",
+    "4- CANAL 13": "https://www.13.cl/en-vivo/"
 }
 
-def buscar_m3u8(url):
+def buscar_m3u8(url_web):
     try:
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        response = requests.get(url, headers=headers, timeout=10)
-        # Buscamos el patrón de un enlace de video streaming
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+        response = requests.get(url_web, headers=headers, timeout=15)
+        # Buscamos enlaces que terminen en .m3u8 dentro del código de la página
         match = re.search(r'https?://[\w\.-]+/[\w\.-/]+.m3u8[^\s"\'<>]*', response.text)
-        return match.group(0) if match else None
-    except:
-        return None
+        if match:
+            return match.group(0)
+    except Exception as e:
+        print(f"Error buscando en {url_web}: {e}")
+    return None
 
-# 1. Cargar tu archivo actual
-with open("canales.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
+# 1. Leer tu archivo canales.json
+try:
+    with open("canales.json", "r", encoding="utf-8") as f:
+        lista_canales = json.load(f)
+except Exception as e:
+    print(f"No se pudo leer canales.json: {e}")
+    exit()
 
-# 2. Actualizar cada canal si se encuentra un link nuevo
-for item in data:
-    nombre = item.get("nombre") # Ajusta "nombre" según como se llame en tu JSON
-    if nombre in CANALES_CONFIG:
-        nuevo_link = buscar_m3u8(CANALES_CONFIG[nombre])
-        if nuevo_link:
-            item["url"] = nuevo_link # Ajusta "url" según tu JSON
-            print(f"Actualizado {nombre}: {nuevo_link}")
+# 2. Intentar actualizar cada uno de los 4 canales
+cambio_realizado = False
+for canal in lista_canales:
+    nombre = canal.get("title")
+    if nombre in CANALES_BUSQUEDA:
+        nuevo_link = buscar_m3u8(CANALES_BUSQUEDA[nombre])
+        if nuevo_link and nuevo_link != canal["url"]:
+            print(f"Actualizando {nombre}...")
+            canal["url"] = nuevo_link
+            cambio_realizado = True
 
-# 3. Guardar los cambios
-with open("canales.json", "w", encoding="utf-8") as f:
-    json.dump(data, f, indent=4, ensure_ascii=False)
+# 3. Guardar solo si hubo cambios
+if cambio_realizado:
+    with open("canales.json", "w", encoding="utf-8") as f:
+        json.dump(lista_canales, f, indent=2, ensure_ascii=False)
+    print("¡Archivo canales.json actualizado con éxito!")
+else:
+    print("No se encontraron links nuevos o no hubo cambios.")

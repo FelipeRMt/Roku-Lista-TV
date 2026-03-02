@@ -1,52 +1,61 @@
 import requests
-import re
 import json
+import re
 
-# Estas son las direcciones donde el robot buscará los nuevos links
-CANALES_A_BUSCAR = {
-    "1- TVN": "https://www.tvn.cl/envivo/",
-    "2- MEGA": "https://www.mega.cl/senal-en-vivo/",
-    "3- CHV": "https://www.chilevision.cl/senal-online",
-    "4- CANAL 13": "https://www.13.cl/en-vivo/"
+# Enlaces directos a los servidores de video (saltando la página web)
+CANALES_MEDIASTREAM = {
+    "1- TVN": "https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8",
+    "2- MEGA": "https://mdstrm.com/live-stream-playlist/53d2c1a32640614e62a0e000.m3u8",
+    "3- CHV": "https://mdstrm.com/live-stream-playlist/63ee47e1daeeb80a30d98ef4.m3u8"
 }
 
-def capturar_enlace(url_sitio):
+def obtener_token_mediastream(url_base):
     try:
-        # Engañamos a la web para que crea que somos un navegador normal
-        cabeceras = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        respuesta = requests.get(url_sitio, headers=cabeceras, timeout=15)
-        
-        # Buscamos el link largo que contiene ".m3u8" y los tokens
-        encontrado = re.findall(r'(https?://[^\s"\']+\.m3u8\?[^"\']+)', respuesta.text)
-        
-        if encontrado:
-            # Si hay varios, elegimos el que parece ser el oficial de video
-            return encontrado[0].replace('\\/', '/')
+        # allow_redirects=True obliga al servidor a darnos la URL final con el token largo
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        respuesta = requests.get(url_base, headers=headers, allow_redirects=True, timeout=15)
+        if respuesta.status_code == 200:
+            return respuesta.url
     except:
-        return None
+        pass
     return None
 
-# 1. Abrimos tu lista de canales
+def buscar_canal_13():
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        respuesta = requests.get("https://www.13.cl/en-vivo/", headers=headers, timeout=15)
+        match = re.search(r'(https?://origin\.dpsgo\.com/[^"\']+\.m3u8\?[^"\']+)', respuesta.text)
+        if match:
+            return match.group(1).replace('\\/', '/')
+    except:
+        pass
+    return None
+
+# 1. Abrimos tu lista
 with open("canales.json", "r", encoding="utf-8") as f:
     datos = json.load(f)
 
 hay_cambios = False
 
-# 2. El robot recorre tu lista y busca links nuevos
+# 2. El robot procesa cada canal
 for canal in datos:
     nombre = canal.get("title")
-    if nombre in CANALES_A_BUSCAR:
-        link_nuevo = capturar_enlace(CANALES_A_BUSCAR[nombre])
+    url_nueva = None
+    
+    if nombre in CANALES_MEDIASTREAM:
+        url_nueva = obtener_token_mediastream(CANALES_MEDIASTREAM[nombre])
+    elif nombre == "4- CANAL 13":
+        url_nueva = buscar_canal_13()
         
-        if link_nuevo and link_nuevo != canal["url"]:
-            canal["url"] = link_nuevo
-            hay_cambios = True
-            print(f"Actualizado: {nombre}")
+    if url_nueva and url_nueva != canal["url"]:
+        canal["url"] = url_nueva
+        hay_cambios = True
+        print(f"Éxito: Link actualizado para {nombre}")
 
-# 3. Solo si encontró algo nuevo, guarda el archivo
+# 3. Guardar solo si hubo cambios
 if hay_cambios:
     with open("canales.json", "w", encoding="utf-8") as f:
         json.dump(datos, f, indent=2, ensure_ascii=False)
-    print("¡Éxito! Tu lista de canales ha sido actualizada.")
+    print("Finalizado: Se guardaron los cambios en canales.json")
 else:
-    print("No se encontraron links nuevos en esta revisión.")
+    print("Finalizado: Los links actuales siguen siendo válidos.")

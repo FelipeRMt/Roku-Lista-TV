@@ -15,11 +15,6 @@
     "format": "hls"
   },
   {
-    "title": "- UCV2",
-    "url": "https://unlimited1-cl-isp.dps.live/ucvtveventos/ucvtveventos.smil/ucvtveventos/livestream1/chunks.m3u8?nimblesessionid=117721540&WebM3UCL",
-    "format": "hls"
-  },
-  {
     "title": "- TVN",
     "url": "https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?uid=zUyXE3jriI2AsbxoUWYXySuJL7LaxMTR&sid=56hw9TO4vpc8oNJIHdoIzBZ5XWlVXFX4&pid=76T4HOIgoyTH1Fued4J1Wg5toJFPNUuZ&pid_dvr=zKjHa92vwFqJ9E0GxbynIQjiBqLmRV5E&an=tvn-play-app-lg-tv&at=web-app&av=v6.0.267&ref=https%3A%2F%2Flive.tvn.cl%2F&res=950x559&without_cookies=false&listenerid=&dnt=true&access_token=lnrb4uf687CEDdcehtydIO8lb81SEkRLfp9zxLs3rPEa04ioQfOfLQp4MIcFkgXc76ZEfb2DBhy&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%2276T4HOIgoyTH1Fued4J1Wg5toJFPNUuZ%22%2Csu",
     "format": "hls"
@@ -51,7 +46,7 @@
   },
   {
     "title": "- CHV Noticias",
-    "url": "https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8?WebM3UCL",
+    "url": "https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u8?WebM3UCL",
     "format": "hls"
   },
   {
@@ -130,11 +125,6 @@
     "format": "hls"
   },
   {
-    "title": "- Boreal",
-    "url": "https://mlb.essastream.com:8081/borealtelevision/tracks-v1a1/mono.m3u8",
-    "format": "hls"
-  },
-  {
     "title": "- Memorias Film",
     "url": "https://video.xtrematv.com:3725/live/memoriasfilmlive.m3u8",
     "format": "hls"
@@ -147,6 +137,36 @@
   {
     "title": "- Aurora Media Films",
     "url": "https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Xtrema Cartoons",
+    "url": "https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- ENT Channel",
+    "url": "https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- ENT Family",
+    "url": "https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Cine Friki",
+    "url": "https://d2mr4fu91mjx9m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rb0tx75ojbc5u/CineFriki_ES.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Cine Western",
+    "url": "https://d2nq34q0i1r3la.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-awohw8g217ho8/CineWestern_ES.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Next",
+    "url": "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8",
     "format": "hls"
   },
   {
@@ -175,8 +195,8 @@
     "format": "hls"
   },
   {
-    "title": "- Azteca Internacional",
-    "url": "https://azt-mun.otteravision.com/azt/mun/mun.m3u8",
+    "title": "- Todo Novelas",
+    "url": "https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8",
     "format": "hls"
   },
   {
@@ -192,6 +212,11 @@
   {
     "title": "- Kanade TV",
     "url": "https://backend.energeek.cl/webtv/kanadeweb/index.m3u8?token=D3m0M3UCLWeb&WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Chinola TV",
+    "url": "https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8",
     "format": "hls"
   },
   {
@@ -230,13 +255,38 @@
     "format": "hls"
   },
   {
+    "title": "- 13 Cultura",
+    "url": "https://redirector.dps.live/hls/13cultura/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- 13 Cocina",
+    "url": "https://redirector.dps.live/hls/13cocina/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- 13 Viajes",
+    "url": "https://redirector.dps.live/hls/13viajes/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- TV Chile",
+    "url": "https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8",
+    "format": "hls"
+  },
+  {
     "title": "- Chile Channel",
     "url": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
     "format": "hls"
   },
   {
-    "title": "- FailArmy",
+    "title": "- FailArmy 1",
     "url": "https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Failarmy 2",
+    "url": "https://failarmy-international-it.samsung.wurl.tv/playlist.m3u8",
     "format": "hls"
   },
   {
@@ -250,8 +300,13 @@
     "format": "hls"
   },
   {
-    "title": "- Carolina TV",
+    "title": "- Carolina TV 1",
     "url": "https://mdstrm.com/live-stream-playlist/63a06468117f42713374addd.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Carolina TV 2",
+    "url": "https://redirector.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/carolinatv2/carolinatv2.smil/playlist.m3u8?did=49f5dbdfe43ee05ea97dc537f1842d69&WebM3UCL",
     "format": "hls"
   },
   {

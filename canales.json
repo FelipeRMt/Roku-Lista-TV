@@ -15,9 +15,8 @@
     "format": "hls"
   },
   {
-    "title": "- TVN",
-    "url": "https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?uid=zUyXE3jriI2AsbxoUWYXySuJL7LaxMTR&sid=56hw9TO4vpc8oNJIHdoIzBZ5XWlVXFX4&pid=76T4HOIgoyTH1Fued4J1Wg5toJFPNUuZ&pid_dvr=zKjHa92vwFqJ9E0GxbynIQjiBqLmRV5E&an=tvn-play-app-lg-tv&at=web-app&av=v6.0.267&ref=https%3A%2F%2Flive.tvn.cl%2F&res=950x559&without_cookies=false&listenerid=&dnt=true&access_token=lnrb4uf687CEDdcehtydIO8lb81SEkRLfp9zxLs3rPEa04ioQfOfLQp4MIcFkgXc76ZEfb2DBhy&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%2276T4HOIgoyTH1Fued4J1Wg5toJFPNUuZ%22%2Csu",
-    "format": "hls"
+    "title": "- TVN (BETA)",
+    "url": "https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?uid=hnutpxWxbiRcdHgeutc4TgkBWffUml3m&sid=fik7wKOMkqinBzfzYxboA9JxH56za8ym&pid=uWHPXyrg2Ep5LWK3izgzwrG6nfloPSSX&pid_dvr=3vzJAO2X5UxKDPN0U6VrzlPuPMXcnVMg&an=tvn-play-app-lg-tv&at=web-app&av=v6.0.267&ref=https%3A%2F%2Flive.tvn.cl%2F&res=950x559&without_cookies=false&listenerid=&dnt=true&access_token=Bg5lrop78JXRWKlhLY28BYzxRC8uaX6OUWlmZNeaHTqhmx2gYLdkEVbwURZUPA6U2uuR8YT2XJ0&CMCD=cid%3D%2257a498c4d7b86d600e5461cb%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22uWHPXyrg2Ep5LWK3izgzwrG6nfloPSSX%22%2Csu"
   },
   {
     "title": "- TVN3",
@@ -60,88 +59,38 @@
     "format": "hls"
   },
   {
-    "title": "- Free TV Acción",
-    "url": "https://stream.ads.ottera.tv/cl/260304d6kc7bdle0fgnj9nh9fg/1280x720_3071200_0_f.m3u8?i=475_16200",
+    "title": "- TV Chile",
+    "url": "https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8",
     "format": "hls"
   },
   {
-    "title": "- Free TV Sureño",
-    "url": "https://stream.ads.ottera.tv/cl/260304d6kc7lqm0fdm47i25h20/1280x720_3070540_0_f.m3u8?i=475_16201",
+    "title": "- 13 Cultura",
+    "url": "https://redirector.dps.live/hls/13cultura/playlist.m3u8?WebM3UCL",
     "format": "hls"
   },
   {
-    "title": "- Free TV Clásico",
-    "url": "https://stream.ads.ottera.tv/cl/260304d6kc82dq2m19iu9eg0ug/1280x720_3071200_0_f.m3u8?i=475_16199",
+    "title": "- 13 Cocina",
+    "url": "https://redirector.dps.live/hls/13cocina/playlist.m3u8?WebM3UCL",
     "format": "hls"
   },
   {
-    "title": "- Free TV Banda",
-    "url": "https://stream.ads.ottera.tv/cl/260304d6kc88vcceuoagnkhffg/1280x720_3071200_0_f.m3u8?i=475_16465",
+    "title": "- 13 Viajes",
+    "url": "https://redirector.dps.live/hls/13viajes/playlist.m3u8?WebM3UCL",
     "format": "hls"
   },
   {
-    "title": "- Free TV Estelar",
-    "url": "https://stream.ads.ottera.tv/cl/260304d6kc8jtheusrfp9soqe0/1280x720_3071200_0_f.m3u8?i=475_16197",
+    "title": "- TVR",
+    "url": "https://unlimited1-cl-isp.dps.live/tvr/tvr.smil/playlist.m3u8?WebM3UCL",
     "format": "hls"
   },
   {
-    "title": "- Free TV Drama",
-    "url": "https://stream.ads.ottera.tv/cl/260304d6kc8qgg8l0uq9elglr0/1280x720_3071200_0_f.m3u8?i=475_16198",
+    "title": "- TV Salud",
+    "url": "https://stmv4.voxtvhd.com.br/rodrigo9120/rodrigo9120/playlist.m3u8?WebM3UCL",
     "format": "hls"
   },
   {
-    "title": "- Free TV Terror",
-    "url": "https://stream.ads.ottera.tv/cl/260304d6kc90rr2r64rrfil3dg/1280x720_3071200_0_f.m3u8?i=475_16194",
-    "format": "hls"
-  },
-  {
-    "title": "- Free TV Familia",
-    "url": "https://stream.ads.ottera.tv/cl/260304d6kc9ab05eli4no5jp7g/1280x720_3071200_0_f.m3u8?i=475_16196",
-    "format": "hls"
-  },
-  {
-    "title": "- Free TV Live",
-    "url": "https://stream.ads.ottera.tv/cl/260304d6kc9f87hqmnjrgbqfq0/1280x720_3071200_0_f.m3u8?i=475_16195",
-    "format": "hls"
-  },
-  {
-    "title": "- Free TV Saber Más",
-    "url": "https://stream.ads.ottera.tv/cl/260304d6kc9ld4b0jsh8pc0j70/1280x720_3071200_0_f.m3u8?i=475_16474",
-    "format": "hls"
-  },
-  {
-    "title": "- Free TV Hits",
-    "url": "https://stream.ads.ottera.tv/cl/260304d6kc9sk5baaosjkgct40/1280x720_3071200_0_f.m3u8?i=475_16370",
-    "format": "hls"
-  },
-  {
-    "title": "- RunTime",
-    "url": "https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh.m3u8",
-    "format": "hls"
-  },
-  {
-    "title": "- Sony Cine",
-    "url": "https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8",
-    "format": "hls"
-  },
-  {
-    "title": "- Memorias Film",
-    "url": "https://video.xtrematv.com:3725/live/memoriasfilmlive.m3u8",
-    "format": "hls"
-  },
-  {
-    "title": "- Memorias Series",
-    "url": "https://video.xtrematv.com:3633/live/memoriasserieslive.m3u8",
-    "format": "hls"
-  },
-  {
-    "title": "- Aurora Media Films",
-    "url": "https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8",
-    "format": "hls"
-  },
-  {
-    "title": "- Xtrema Cartoons",
-    "url": "https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8",
+    "title": "- Oli TV",
+    "url": "https://v4.tustreaming.cl/retroplaytv/tracks-v1a1/mono.ts.m3u8",
     "format": "hls"
   },
   {
@@ -155,8 +104,63 @@
     "format": "hls"
   },
   {
+    "title": "- Sony Cine",
+    "url": "https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Memorias Film",
+    "url": "https://video.xtrematv.com:3725/live/memoriasfilmlive.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Retro Plus TV",
+    "url": "https://tls-cl.cdnz.cl/retroplustvtres/live/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- RunTime",
+    "url": "https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Cine35mm",
+    "url": "https://live20.bozztv.com/akamaissh101/ssh101/bigchannel/chunks.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Bombi TV",
+    "url": "https://tv.arkeo.cl:1936/bombitv/bombitv/chunklist_w1726698174.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Mi TV",
+    "url": "https://mitv.getstreamhosting.com:1936/live/live/chunklist_w1917734841.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Memorias Series",
+    "url": "https://video.xtrematv.com:3633/live/memoriasserieslive.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Aurora Media Films",
+    "url": "https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Ciudad Magica TV",
+    "url": "https://tuvideoonline.com.ar:3145/live/grupocitylive.m3u8",
+    "format": "hls"
+  },
+  {
     "title": "- Cine Friki",
     "url": "https://d2mr4fu91mjx9m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rb0tx75ojbc5u/CineFriki_ES.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- TV Retro Palmares",
+    "url": "https://live20.bozztv.com/akamaissh101/ssh101/tvretropalm2020/chunks.m3u8",
     "format": "hls"
   },
   {
@@ -165,15 +169,25 @@
     "format": "hls"
   },
   {
+    "title": "- Visión TV",
+    "url": "https://cdn.streamhispanatv.net:3531/live/tvsretrogtlive.m3u8",
+    "format": "hls"
+  },
+  {
     "title": "- Next",
     "url": "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8",
     "format": "hls"
   },
   {
-    "title": "- Retro Plus TV",
-    "url": "https://tls-cl.cdnz.cl/retroplustvtres/live/playlist.m3u8?WebM3UCL",
+    "title": "- Chinola TV",
+    "url": "https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8",
     "format": "hls"
   },
+  {
+    "title": "- Xtrema Cartoons",
+    "url": "https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8",
+    "format": "hls"
+  },  
   {
     "title": "- Kanal D",
     "url": "https://thema-vivekanald-rakuten.amagi.tv/playlist.m3u8",
@@ -215,11 +229,6 @@
     "format": "hls"
   },
   {
-    "title": "- Chinola TV",
-    "url": "https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8",
-    "format": "hls"
-  },
-  {
     "title": "- Memorias Toons",
     "url": "https://video.xtrematv.com:3812/live/memoriastoonslive.m3u8",
     "format": "hls"
@@ -235,8 +244,23 @@
     "format": "hls"
   },
   {
-    "title": "- History",
-    "url": "https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8",
+    "title": "- Gogoplay",
+    "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Varied TV",
+    "url": "https://live20.bozztv.com/akamaissh101/ssh101/variedtvonline/chunks.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- EGM TV",
+    "url": "https://vdochile.com:3922/live/egm20live.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Dodo TV",
+    "url": "https://cloud5.streaminglivehd.com:3651/hybrid/play.m3u8?WebM3UCL",
     "format": "hls"
   },
   {
@@ -245,38 +269,8 @@
     "format": "hls"
   },
   {
-    "title": "- TV Salud",
-    "url": "https://stmv4.voxtvhd.com.br/rodrigo9120/rodrigo9120/playlist.m3u8?WebM3UCL",
-    "format": "hls"
-  },
-  {
-    "title": "- TVR",
-    "url": "https://unlimited1-cl-isp.dps.live/tvr/tvr.smil/playlist.m3u8?WebM3UCL",
-    "format": "hls"
-  },
-  {
-    "title": "- 13 Cultura",
-    "url": "https://redirector.dps.live/hls/13cultura/playlist.m3u8?WebM3UCL",
-    "format": "hls"
-  },
-  {
-    "title": "- 13 Cocina",
-    "url": "https://redirector.dps.live/hls/13cocina/playlist.m3u8?WebM3UCL",
-    "format": "hls"
-  },
-  {
-    "title": "- 13 Viajes",
-    "url": "https://redirector.dps.live/hls/13viajes/playlist.m3u8?WebM3UCL",
-    "format": "hls"
-  },
-  {
-    "title": "- TV Chile",
-    "url": "https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8",
-    "format": "hls"
-  },
-  {
-    "title": "- Chile Channel",
-    "url": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
+    "title": "- Historia",
+    "url": "https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8",
     "format": "hls"
   },
   {
@@ -287,6 +281,16 @@
   {
     "title": "- Failarmy 2",
     "url": "https://failarmy-international-it.samsung.wurl.tv/playlist.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- DW Español",
+    "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
+    "format": "hls"
+  },
+  {
+    "title": "- Chile Channel",
+    "url": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
     "format": "hls"
   },
   {
@@ -307,6 +311,21 @@
   {
     "title": "- Carolina TV 2",
     "url": "https://redirector.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/carolinatv2/carolinatv2.smil/playlist.m3u8?did=49f5dbdfe43ee05ea97dc537f1842d69&WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Radio Activa",
+    "url": "https://jireh-3-hls-video-cl-movistar.dps.live/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/radioactivatv/radioactivatv.smil/radioactivatv/livestream1/chunks.m3u8?WebM3UCL=&dpssid=b2165682760869aa1f77bbe96&sid=ba5t1l1xb2133910932769aa1f77bbe94&ndvc=1",
+    "format": "hls"
+  },
+  {
+    "title": "- Radio Romántica",
+    "url": "https://mdstrm.com/live-stream-playlist/63a0674c1137d408b45d4821.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Radio Infinita",
+    "url": "https://mdstrm.com/live-stream-playlist/63a066e54ed536087960b550.m3u8?WebM3UCL",
     "format": "hls"
   },
   {

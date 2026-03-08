@@ -89,11 +89,6 @@
     "format": "hls"
   },
   {
-    "title": "- Oli TV",
-    "url": "https://v4.tustreaming.cl/retroplaytv/tracks-v1a1/mono.ts.m3u8",
-    "format": "hls"
-  },
-  {
     "title": "- ENT Channel",
     "url": "https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8",
     "format": "hls"
@@ -121,11 +116,6 @@
   {
     "title": "- RunTime",
     "url": "https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh.m3u8",
-    "format": "hls"
-  },
-  {
-    "title": "- Cine35mm",
-    "url": "https://live20.bozztv.com/akamaissh101/ssh101/bigchannel/chunks.m3u8",
     "format": "hls"
   },
   {
@@ -246,11 +236,6 @@
   {
     "title": "- Gogoplay",
     "url": "https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/chunks.m3u8",
-    "format": "hls"
-  },
-  {
-    "title": "- Varied TV",
-    "url": "https://live20.bozztv.com/akamaissh101/ssh101/variedtvonline/chunks.m3u8",
     "format": "hls"
   },
   {

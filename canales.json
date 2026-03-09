@@ -79,6 +79,21 @@
     "format": "hls"
   },
   {
+    "title": "- 13 Teleseries",
+    "url": "https://redirector.dps.live/hls/13t/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- 13 Festival",
+    "url": "https://redirector.dps.live/hls/13festival/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- 13 Realities",
+    "url": "https://redirector.dps.live/hls/13realities/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },  
+  {
     "title": "- TVR",
     "url": "https://unlimited1-cl-isp.dps.live/tvr/tvr.smil/playlist.m3u8?WebM3UCL",
     "format": "hls"
@@ -88,6 +103,126 @@
     "url": "https://stmv4.voxtvhd.com.br/rodrigo9120/rodrigo9120/playlist.m3u8?WebM3UCL",
     "format": "hls"
   },
+  {
+    "title": "- TVM",
+    "url": "https://stream.skarnetchile.com:19360/canaltvm/canaltvm.m3u8?WebM3UCL",
+    "format": "hls"
+  },  
+  {
+    "title": "- PrideTV",
+    "url": "https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=D3m0M3UCLWeb&WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Central TV",
+    "url": "https://freya.mivideo.pro/centraltv/video.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Mundo de la Musica TV",
+    "url": "https://tv.arkeo.cl:1936/mundodelamusica/mundodelamusica/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Oli TV",
+    "url": "https://v4.tustreaming.cl/retroplaytv/index.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- G Vision",
+    "url": "https://videostream.chileservidores.com:8081/tome/index.m3u8?WebM3UCL",
+    "format": "hls"
+  },  
+  {
+    "title": "- Poesia TV",
+    "url": "https://5eaccbab48461.streamlock.net:1936/8222/8222/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- U Chile TV",
+    "url": "https://unlimited1-cl-isp.dps.live/uchiletv/uchiletv.smil/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Atacama Noticias TV",
+    "url": "https://v2.tustreaming.cl/atacamanoticias/index.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Enfoque Digital TV",
+    "url": "https://5eaccbab48461.streamlock.net:1936/8074/8074/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Alternativa TV",
+    "url": "https://live20.bozztv.com/giatv/giatv-alternativatv/alternativatv/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- América TV Chile",
+    "url": "https://v2.tustreaming.cl/radioamericatv/index.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Marga Marga TV",
+    "url": "https://v1.tustreaming.cl/margamargatv/index.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Estacion Limache TV",
+    "url": "https://v4.tustreaming.cl/limachemovil/index.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Autonoma TV",
+    "url": "https://wifispeed.trapemn.tv:1936/comunales/autonoma-tv/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Santa Cruz",
+    "url": "https://origin-us.streaminghd.cl/santacruz/santacruz/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Nova TV Canal 7",
+    "url": "https://freya.mivideo.pro/novatv/index.fmp4.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- San Pedro Conecta",
+    "url": "https://video.ipstream.cl:3710/hybrid/play.m3u8?WebM3UCL",
+    "format": "hls"
+  },  
+  {
+    "title": "- Ñublevisión",
+    "url": "https://tv.arkeo.cl:1936/nublevision/nublevision/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },  
+  {
+    "title": "- VLTV",
+    "url": "https://andromeda3.trapemn.tv:1936/regionales/vltv.stream/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- T-Vinet",
+    "url": "https://unlimited1-cl-isp.dps.live/inet2/inet2.smil/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Santa Maria TV",
+    "url": "https://unlimited2-cl-isp.dps.live/smtv/smtv.smil/playlist.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- La Melinkana TV",
+    "url": "https://v1.tustreaming.cl/melinkana/index.m3u8?WebM3UCL",
+    "format": "hls"
+  },
+  {
+    "title": "- Emocion TV",
+    "url": "https://v1.tustreaming.cl/emociontv/index.m3u8?WebM3UCL",
+    "format": "hls"
+  },  
   {
     "title": "- ENT Channel",
     "url": "https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8",
@@ -146,11 +281,6 @@
   {
     "title": "- Cine Friki",
     "url": "https://d2mr4fu91mjx9m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rb0tx75ojbc5u/CineFriki_ES.m3u8",
-    "format": "hls"
-  },
-  {
-    "title": "- TV Retro Palmares",
-    "url": "https://live20.bozztv.com/akamaissh101/ssh101/tvretropalm2020/chunks.m3u8",
     "format": "hls"
   },
   {
@@ -292,12 +422,17 @@
     "title": "- Carolina TV 1",
     "url": "https://mdstrm.com/live-stream-playlist/63a06468117f42713374addd.m3u8?WebM3UCL",
     "format": "hls"
-  },
+  },  
   {
     "title": "- Carolina TV 2",
     "url": "https://redirector.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/carolinatv2/carolinatv2.smil/playlist.m3u8?did=49f5dbdfe43ee05ea97dc537f1842d69&WebM3UCL",
     "format": "hls"
   },
+  {
+    "title": "- Pasion Ranchera",
+    "url": "https://tv.arkeo.cl:19360/8068/8068.m3u8?WebM3UCL",
+    "format": "hls"
+  },  
   {
     "title": "- Radio Activa",
     "url": "https://jireh-3-hls-video-cl-movistar.dps.live/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/radioactivatv/radioactivatv.smil/radioactivatv/livestream1/chunks.m3u8?WebM3UCL=&dpssid=b2165682760869aa1f77bbe96&sid=ba5t1l1xb2133910932769aa1f77bbe94&ndvc=1",

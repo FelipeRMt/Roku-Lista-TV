@@ -154,11 +154,6 @@
     "format": "hls"
   },
   {
-    "title": "- Alternativa TV",
-    "url": "https://live20.bozztv.com/giatv/giatv-alternativatv/alternativatv/playlist.m3u8?WebM3UCL",
-    "format": "hls"
-  },
-  {
     "title": "- América TV Chile",
     "url": "https://v2.tustreaming.cl/radioamericatv/index.m3u8?WebM3UCL",
     "format": "hls"

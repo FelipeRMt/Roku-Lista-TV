@@ -104,11 +104,6 @@
     "format": "hls"
   },
   {
-    "title": "- TVM",
-    "url": "https://stream.skarnetchile.com:19360/canaltvm/canaltvm.m3u8?WebM3UCL",
-    "format": "hls"
-  },  
-  {
     "title": "- PrideTV",
     "url": "https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=D3m0M3UCLWeb&WebM3UCL",
     "format": "hls"

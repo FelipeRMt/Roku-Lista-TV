@@ -174,11 +174,6 @@
     "format": "hls"
   },
   {
-    "title": "- Nova TV Canal 7",
-    "url": "https://freya.mivideo.pro/novatv/index.fmp4.m3u8?WebM3UCL",
-    "format": "hls"
-  },
-  {
     "title": "- San Pedro Conecta",
     "url": "https://video.ipstream.cl:3710/hybrid/play.m3u8?WebM3UCL",
     "format": "hls"
